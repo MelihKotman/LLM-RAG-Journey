@@ -27,8 +27,8 @@ Amaç, konuları ezberlemek değil "neden böyle" mantığıyla adım adım anla
 Bir dil modelinin ham metni token'lara bölmesinden, bu token'ları anlamlı vektörlere dönüştürmesine, attention ile bağlam kurmasına ve sonunda bir sonraki kelimeyi üretmesine kadar sekiz notebook'luk bir seri:
 
 - **01_tokenization** ✅ tamamlandı — Byte Pair Encoding'i sıfırdan kurup Türkçe'nin eklemeli yapısının tokenization'ı İngilizce'ye göre nasıl zorlaştırdığını ölçülebilir şekilde gösterdik.
-- **02_embeddings** — token ID'lerinin öğrenilebilir vektörlere dönüşümü, geometrik anlam ilişkileri
-- **03_self_attention** — Query/Key/Value, scaled dot-product attention
+- **02_embeddings** — tamamlandı — token ID'lerinin öğrenilebilir vektörlere dönüşümü, word2vec'in geometrik sezgisi, statik embedding'lerin çok anlamlılık sınırı
+- **03_self_attention** — tamamlandı — Query/Key/Value ile bağlama duyarlı temsiller, scaled dot-product attention, 02'nin gerçek embedding'leriyle bağlam-duyarlılık gösterimi, 5 egzersiz çözüldü
 - **04_multi_head_attention** — neden tek attention "kafası" yetmiyor
 - **05_positional_encoding** — sıra bilgisinin nasıl enjekte edildiği, sinusoidal formül, RoPE'a bakış
 - **06_full_architecture** — encoder-decoder vs decoder-only, causal mask, tam bir Transformer bloğu
@@ -59,4 +59,4 @@ Her notebook, konudan bağımsız olarak aynı yapıyı izliyor:
 
 ## Sırada Ne Var
 
-Transformer-Foundations-lab/02_embeddings ile devam: token embedding'lerinin geometrik anlamı ve neden bağlama duyarlı (contextual) hale getirilmeleri gerektiği.
+Transformer-Foundations-lab/01, 02 ve 03'ün tamamı (egzersizler dahil) bitti; 04_multi_head_attention ile devam.
