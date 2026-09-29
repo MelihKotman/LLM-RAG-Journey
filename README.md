@@ -31,7 +31,7 @@ Bir dil modelinin ham metni token'lara bölmesinden, bu token'ları anlamlı vek
 - **03_self_attention** — tamamlandı — Query/Key/Value ile bağlama duyarlı temsiller, scaled dot-product attention, 02'nin gerçek embedding'leriyle bağlam-duyarlılık gösterimi, 5 egzersiz çözüldü
 - **04_multi_head_attention** — neden tek attention "kafası" yetmiyor
 - **05_positional_encoding** — sıra bilgisinin nasıl enjekte edildiği, sinusoidal formül, RoPE'a bakış
-- **06_full_architecture** — encoder-decoder vs decoder-only, causal mask, tam bir Transformer bloğu
+- **06_full_architecture** — ✅ tamamlandı (egzersizler dahil) — hazır GPT-2/BERT'in içini açıp tam Transformer bloğunu (attention + FFN + residual + LayerNorm) yeniden kurma, causal mask, encoder-only / decoder-only / encoder-decoder
 - **07_pretraining_finetuning** — pretraining hedefleri, fine-tuning ve LoRA'ya giriş
 - **08_decoding_strategies** — greedy, beam search, temperature/top-k/top-p sampling
 
@@ -59,4 +59,4 @@ Her notebook, konudan bağımsız olarak aynı yapıyı izliyor:
 
 ## Sırada Ne Var
 
-Transformer-Foundations-lab/01, 02 ve 03'ün tamamı (egzersizler dahil) bitti; 04_multi_head_attention ile devam.
+Transformer-Foundations-lab/01–06 tamamen bitti (egzersizler dahil); 07_pretraining_finetuning ile devam.
