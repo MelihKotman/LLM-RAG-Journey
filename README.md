@@ -32,7 +32,7 @@ Bir dil modelinin ham metni token'lara bölmesinden, bu token'ları anlamlı vek
 - **04_multi_head_attention** — neden tek attention "kafası" yetmiyor
 - **05_positional_encoding** — sıra bilgisinin nasıl enjekte edildiği, sinusoidal formül, RoPE'a bakış
 - **06_full_architecture** — ✅ tamamlandı (egzersizler dahil) — hazır GPT-2/BERT'in içini açıp tam Transformer bloğunu (attention + FFN + residual + LayerNorm) yeniden kurma, causal mask, encoder-only / decoder-only / encoder-decoder
-- **07_pretraining_finetuning** — pretraining hedefleri, fine-tuning ve LoRA'ya giriş
+- **07_pretraining_finetuning** — ✅ tamamlandı (egzersizler dahil) — pretraining hedefleri (GPT/BERT/T5) hazır modellerle, base vs Instruct, LoRA (çekirdek elle + `peft`), fine-tune vs prompt'a bağlam deneyi (RAG'e göz kırpma)
 - **08_decoding_strategies** — greedy, beam search, temperature/top-k/top-p sampling
 
 Ayrıntılı kapsam ve kaynaklar için: [`Transformer-Foundations-lab/README.md`](Transformer-Foundations-lab/README.md)
@@ -59,4 +59,4 @@ Her notebook, konudan bağımsız olarak aynı yapıyı izliyor:
 
 ## Sırada Ne Var
 
-Transformer-Foundations-lab/01–06 tamamen bitti (egzersizler dahil); 07_pretraining_finetuning ile devam.
+Transformer-Foundations-lab/01–06 tamamen bitti (egzersizler dahil); 07_pretraining_finetuning de bitti (egzersizler dahil); sıradaki 08_decoding_strategies.
