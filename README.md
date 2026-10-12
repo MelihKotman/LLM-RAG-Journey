@@ -4,8 +4,8 @@
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![PEFT](https://img.shields.io/badge/PEFT%20(LoRA)-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Hugging Face](<https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black>)
+![PEFT](<https://img.shields.io/badge/PEFT%20(LoRA)-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black>)
 ![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-3B6EA5?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-4285F4?style=for-the-badge&logo=meta&logoColor=white)
@@ -22,8 +22,6 @@ Büyük Dil Modellerinin (LLM) ve Retrieval-Augmented Generation'ın (RAG) gerç
 ## Bu Depo Ne İşe Yarıyor
 
 Depodaki her alt proje ("lab"), bir konu alanını kapsayan numaralı notebook'lardan oluşuyor. Her notebook sezgiyle başlar, küçük bir elle örnekten kodla doğrulamaya geçer, gerçek metin/veri üzerinde (mümkün olduğunca Türkçe de) uygulanır, çözümü okuyucuya bırakılan egzersizlerle devam eder ve doğrulanmış kaynaklarla biter. Notebook'lardaki iddialar kod çalıştırılarak doğrulanmıştır. Amaç ezber değil, "neden böyle" sorusunu deneyle yanıtlamak.
-
-Kavramlar soyut kalmasın diye notebook'larda kısa uygulama örnekleri de yer alıyor; bu örnekler için [`03-tez-degerlendirme/aday-konular.md`](03-tez-degerlendirme/aday-konular.md) içindeki araştırma/tez konuları bir senaryo havuzu olarak kullanılıyor.
 
 ## Genel Yapı
 
