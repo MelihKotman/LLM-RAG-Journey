@@ -5,58 +5,76 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![PEFT](https://img.shields.io/badge/PEFT%20(LoRA)-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-3B6EA5?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-4285F4?style=for-the-badge&logo=meta&logoColor=white)
 
-Bu depo, [SAYZEK Akademik Tez programı](03-tez-degerlendirme/aday-konular.md) kapsamında bir bitirme tezi konusuna karar vermeden önce, Büyük Dil Modellerinin (LLM) ve Retrieval-Augmented Generation'ın (RAG) gerçekte ne iş yaptığını ve nasıl çalıştığını — yüzeysel "kullanmayı öğrenmek" değil, matematiksel ve algoritmik temeliyle — kavramak için tutulan yapılandırılmış bir öğrenim sürecinin ana merkezidir. [DS-Mastery-Journey](../DS-Mastery-Journey) deposuyla aynı çalışma disiplinini izliyor: her notebook teori + elle türetme + kodla doğrulama + gerçek veri + egzersiz kalıbını takip ediyor.
+![GPT-2](https://img.shields.io/badge/GPT--2-10A37F?style=for-the-badge)
+![BERT](https://img.shields.io/badge/BERT-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![T5](https://img.shields.io/badge/T5-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Qwen2.5](https://img.shields.io/badge/Qwen2.5-615CED?style=for-the-badge)
+![SmolLM2](https://img.shields.io/badge/SmolLM2-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![multilingual-e5](https://img.shields.io/badge/multilingual--e5-0A66C2?style=for-the-badge)
+
+Büyük Dil Modellerinin (LLM) ve Retrieval-Augmented Generation'ın (RAG) gerçekte nasıl çalıştığını, yüzeysel "kullanmayı öğrenmek" yerine algoritmik temeliyle kavramak için tutulan, Türkçe ağırlıklı, uygulamalı bir öğrenim deposu. Önce bir LLM'in içi (Faz 1), sonra onun üzerine kurulan RAG sistemleri (Faz 2) numaralı Jupyter notebook'larıyla işleniyor. [DS-Mastery-Journey](../DS-Mastery-Journey) deposuyla aynı çalışma disiplinini izliyor.
 
 ## Bu Depo Ne İşe Yarıyor
 
-Depodaki her alt proje ("lab"), belirli bir konu alanını kapsayan, numaralandırılmış Jupyter notebook'larından oluşuyor. Her notebook aynı sabit kalıbı izliyor: önce teorik özet (formüllerin sadece yazılması değil, küçük bir örnek üzerinde elle takip edilerek türetilmesi), ardından gerçek metin/veri üzerinde uygulama, ardından çözümü okuyucuya bırakılan egzersizler, ve son olarak ileri okuma için doğrulanmış kaynak listesi. Notebook'lardaki iddialar (bir tokenizer'ın gerçekten daha az token ürettiği, bir grafiğin doğru sonucu verdiği gibi) kod çalıştırılarak doğrulanmış durumda.
+Depodaki her alt proje ("lab"), bir konu alanını kapsayan numaralı notebook'lardan oluşuyor. Her notebook sezgiyle başlar, küçük bir elle örnekten kodla doğrulamaya geçer, gerçek metin/veri üzerinde (mümkün olduğunca Türkçe de) uygulanır, çözümü okuyucuya bırakılan egzersizlerle devam eder ve doğrulanmış kaynaklarla biter. Notebook'lardaki iddialar kod çalıştırılarak doğrulanmıştır. Amaç ezber değil, "neden böyle" sorusunu deneyle yanıtlamak.
 
-Amaç, konuları ezberlemek değil "neden böyle" mantığıyla adım adım anlamak. Bu anlayış oturduktan sonra `03-tez-degerlendirme/aday-konular.md` içindeki SAYZEK tez konularından (özellikle LLM/RAG ağırlıklı olanlardan) hangisinin uygun bir tez omurgası olabileceğine karar vermek.
+Kavramlar soyut kalmasın diye notebook'larda kısa uygulama örnekleri de yer alıyor; bu örnekler için [`03-tez-degerlendirme/aday-konular.md`](03-tez-degerlendirme/aday-konular.md) içindeki araştırma/tez konuları bir senaryo havuzu olarak kullanılıyor.
 
 ## Genel Yapı
 
-- **`Transformer-Foundations-lab/`** — Faz 1: bir LLM'in "kaputun altında" nasıl çalıştığı (tokenization → embedding → attention → tam mimari → pretraining → decoding)
-- **`RAG-Systems-lab/`** — Faz 2: retrieval-augmented generation sistemlerinin nasıl inşa edildiği (henüz başlanmadı — Faz 1 tamamlandıktan sonra)
-- **`03-tez-degerlendirme/`** — SAYZEK aday tez konularının listesi ve bunların LLM/RAG öğrenimiyle nasıl eşleştiğine dair değerlendirme; öğrenim ilerledikçe düzenli aralıklarla gözden geçiriliyor
+- **`Transformer-Foundations-lab/`** — Faz 1: bir LLM'in "kaputun altında" nasıl çalıştığı
+- **`RAG-Systems-lab/`** — Faz 2: RAG sistemlerinin nasıl inşa edildiği
+- **`03-tez-degerlendirme/`** — notebook örneklerinde kullanılan senaryo/konu havuzu
 
 ## Faz 1: Transformer Temelleri (`Transformer-Foundations-lab`)
 
-Bir dil modelinin ham metni token'lara bölmesinden, bu token'ları anlamlı vektörlere dönüştürmesine, attention ile bağlam kurmasına ve sonunda bir sonraki kelimeyi üretmesine kadar sekiz notebook'luk bir seri:
+Ham metnin token'lara bölünmesinden bir sonraki kelimenin üretilmesine kadar bir dil modelinin tüm hattı sekiz notebook'ta işlendi.
 
-- **01_tokenization** ✅ tamamlandı — Byte Pair Encoding'i sıfırdan kurup Türkçe'nin eklemeli yapısının tokenization'ı İngilizce'ye göre nasıl zorlaştırdığını ölçülebilir şekilde gösterdik.
-- **02_embeddings** — tamamlandı — token ID'lerinin öğrenilebilir vektörlere dönüşümü, word2vec'in geometrik sezgisi, statik embedding'lerin çok anlamlılık sınırı
-- **03_self_attention** — tamamlandı — Query/Key/Value ile bağlama duyarlı temsiller, scaled dot-product attention, 02'nin gerçek embedding'leriyle bağlam-duyarlılık gösterimi, 5 egzersiz çözüldü
-- **04_multi_head_attention** — neden tek attention "kafası" yetmiyor
-- **05_positional_encoding** — sıra bilgisinin nasıl enjekte edildiği, sinusoidal formül, RoPE'a bakış
-- **06_full_architecture** — ✅ tamamlandı (egzersizler dahil) — hazır GPT-2/BERT'in içini açıp tam Transformer bloğunu (attention + FFN + residual + LayerNorm) yeniden kurma, causal mask, encoder-only / decoder-only / encoder-decoder
-- **07_pretraining_finetuning** — ✅ tamamlandı (egzersizler dahil) — pretraining hedefleri (GPT/BERT/T5) hazır modellerle, base vs Instruct, LoRA (çekirdek elle + `peft`), fine-tune vs prompt'a bağlam deneyi (RAG'e göz kırpma)
-- **08_decoding_strategies** — greedy, beam search, temperature/top-k/top-p sampling
+- **01_tokenization** — Byte Pair Encoding sıfırdan kurulup Türkçe ile İngilizce'nin token maliyeti karşılaştırıldı.
+- **02_embeddings** — Token'ların vektörlere dönüşümü, word2vec'in geometrisi ve statik embedding'lerin çok anlamlılık sınırı.
+- **03_self_attention** — Query/Key/Value ve scaled dot-product attention'ın sıfırdan kurulumu.
+- **04_multi_head_attention** — Tek attention kafasının neden yetmediği ve kafaların nasıl birleştiği.
+- **05_positional_encoding** — Sıra bilgisinin nasıl enjekte edildiği: sinüzoidal kodlama ve RoPE'a bakış.
+- **06_full_architecture** — Hazır GPT-2, BERT ve T5'in içi açılıp tam Transformer bloğu ve üç mimari ailesi incelendi.
+- **07_pretraining_finetuning** — Pretraining hedefleri, base vs Instruct, LoRA ve fine-tune ile prompt'a bağlam vermenin karşılaştırması.
+- **08_decoding_strategies** — Greedy, beam search, temperature, top-k/top-p/min-p ve tekrar cezalarının üretime etkisi.
 
-Ayrıntılı kapsam ve kaynaklar için: [`Transformer-Foundations-lab/README.md`](Transformer-Foundations-lab/README.md)
+Ayrıntılı kapsam ve kaynaklar: [`Transformer-Foundations-lab/README.md`](Transformer-Foundations-lab/README.md)
 
 ## Faz 2: RAG Sistemleri (`RAG-Systems-lab`)
 
-Faz 1 tamamlandıktan sonra başlanacak; planlanan sekiz notebook (vektör arama, chunking, retrieval yöntemleri, sıfırdan RAG pipeline'ı, RAG değerlendirmesi, Self-RAG/CRAG, GraphRAG, Türkçe RAG asistanı) [`RAG-Systems-lab/README.md`](RAG-Systems-lab/README.md) içinde listelendi. SAYZEK aday konularından #7 (Self-RAG/CRAG), #10 (uzun bağlam vs RAG), #13 (GraphRAG) ve #15 (Türkçe RAG asistanı) bu fazın notebook'larıyla doğrudan örtüşüyor.
+Sekiz notebook planlandı: vektör arama, chunking, retrieval yöntemleri, sıfırdan RAG pipeline'ı, RAG değerlendirmesi, Self-RAG/CRAG, GraphRAG ve Türkçe bir RAG asistanı. Sırada ilk notebook (`01_vector_search_embeddings`) var. Ayrıntı: [`RAG-Systems-lab/README.md`](RAG-Systems-lab/README.md)
 
 ## Kullanılan Kütüphaneler ve Araçlar
 
-**Python**, tüm serinin ortak dili. Faz 1'de ağırlıklı olarak **NumPy** ve **Matplotlib** ile, mekanizmalar harici bir derin öğrenme kütüphanesine sarılmadan sıfırdan kuruluyor — amaç "neden çalıştığını" görmek. Faz 2'de bunun üzerine **Hugging Face transformers/tokenizers**, **LangChain**/**LlamaIndex**, ve vektör veritabanları olarak **FAISS**/**Chroma** eklenecek. Türkçe deneylerde Hugging Face üzerindeki Türkçe'ye özel sentence-transformer embedding modelleri kullanılacak.
+**Python** serinin ortak dili. Faz 1'in ilk notebook'larında mekanizmalar **NumPy** ve **Matplotlib** ile sıfırdan kuruluyor; 06'dan itibaren **PyTorch**, **Hugging Face transformers** ve **PEFT** ile hazır modeller kullanılıyor. Faz 2'de **sentence-transformers**, vektör arama için **FAISS**/**Chroma**, ve gerektiğinde **LangChain**/**LlamaIndex** eklenecek.
 
-Not: Bazı notebook hücreleri (örn. gerçek bir Hugging Face tokenizer/modelini indirip karşılaştırma) internet erişimi gerektiriyor ve bu nedenle "bonus/opsiyonel egzersiz" olarak işaretleniyor; notebook'un ana akışı her zaman internet gerektirmeden (sıfırdan yazılmış kodla) tam olarak çalışıyor.
+## Kullanılan Modeller
+
+Modeller Hugging Face'ten indiriliyor (ilk çalıştırmada internet gerekir) ve küçük tutuldu, böylece her şey CPU'da çalışabiliyor.
+
+- **GPT-2 (small)** ve **DistilGPT-2** — decoder-only temel model, mimari incelemesi, decoding deneyleri
+- **BERT** (`bert-base-uncased`, `bert-base-multilingual-cased`, `dbmdz/bert-base-turkish-cased`) — encoder-only model, boşluk doldurma ve Türkçe karşılaştırma
+- **T5 (small)** — encoder-decoder mimarisi ve cross-attention
+- **Qwen2.5** (0.5B ve 1.5B; base ve Instruct) — fine-tuning, LoRA ve RAG okuyucusu deneyleri
+- **SmolLM2 (360M)** — farklı tokenizer ve küçük model karşılaştırması
+- **multilingual-e5-small** — Türkçe dahil çok dilli embedding ve retrieval
+
+Not: Modelleri indirmeyi gerektiren bazı hücreler opsiyonel olarak işaretlenmiş olabilir; sıfırdan yazılan çekirdek kodlar internetsiz çalışır.
 
 ## Notebook Formatı
 
-Her notebook, konudan bağımsız olarak aynı yapıyı izliyor:
-
-1. Başlık ve özet — notebook'un kapsamı, önkoşulları, kullanılan veriler
-2. Teori — formüllerin/algoritmaların küçük bir örnek üzerinde elle türetilmesi, ardından kodla doğrulanması
-3. Uygulama — gerçek metin/veri üzerinde (mümkün olduğunca Türkçe örnekler dahil edilerek)
-4. Egzersizler — çözümü verilmeyen, okuyucunun kendisinin çözmesi beklenen sorular
-5. Kaynaklar — konuyla ilgili, doğrulanmış kitap/kurs/makale önerileri
+1. Başlık ve özet — kapsam, önkoşullar, kullanılan veri
+2. Teori — sezgi, küçük elle örnek, kodla doğrulama; her bölümün sonunda "Ne gördük?"
+3. Uygulama — gerçek veri üzerinde, Türkçe dahil
+4. Egzersizler — çözümü verilmeyen, her biri kendi hücresinde
+5. Kaynaklar — doğrulanmış kitap/kurs/makale önerileri
 
 ## Sırada Ne Var
 
-Transformer-Foundations-lab/01–06 tamamen bitti (egzersizler dahil); 07_pretraining_finetuning de bitti (egzersizler dahil); sıradaki 08_decoding_strategies.
+Faz 1 bitti. Sırada Faz 2: `RAG-Systems-lab/01_vector_search_embeddings`.
