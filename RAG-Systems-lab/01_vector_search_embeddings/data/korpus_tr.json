@@ -1,0 +1,344 @@
+{
+ "pasajlar": [
+  {
+   "id": "u01",
+   "konu": "yönetmelik",
+   "metin": "Zorunlu staj en az 30 iş günü sürer ve öğrenci, stajı başlamadan önce bölüm staj komisyonuna başvurmak zorundadır."
+  },
+  {
+   "id": "u02",
+   "konu": "yönetmelik",
+   "metin": "Bir derste teorik saatlerin yüzde 30'undan fazlasına katılmayan öğrenci o dersin final sınavına giremez."
+  },
+  {
+   "id": "u03",
+   "konu": "yönetmelik",
+   "metin": "Final sınavında başarısız olan öğrenci, dönem sonunda yapılan bütünleme sınavına girerek notunu düzeltme hakkına sahiptir."
+  },
+  {
+   "id": "u04",
+   "konu": "yönetmelik",
+   "metin": "Genel not ortalaması en az 3,00 olan öğrenciler ikinci sınıfın sonunda çift anadal programına başvurabilir."
+  },
+  {
+   "id": "u05",
+   "konu": "yönetmelik",
+   "metin": "Mazeret sınavı için öğrenci, sınav tarihinden sonraki beş iş günü içinde sağlık raporunu öğrenci işlerine teslim etmelidir."
+  },
+  {
+   "id": "u06",
+   "konu": "yönetmelik",
+   "metin": "Kayıt dondurma talebi dönem başlamadan önce yapılmalıdır; bir öğrenci eğitim süresi boyunca en çok iki dönem kayıt dondurabilir."
+  },
+  {
+   "id": "u07",
+   "konu": "yönetmelik",
+   "metin": "Bir öğrencinin mezun olabilmesi için en az 240 AKTS kredisini tamamlaması ve genel not ortalamasının 2,00'ın altına düşmemesi gerekir."
+  },
+  {
+   "id": "u08",
+   "konu": "yönetmelik",
+   "metin": "Not itirazları, notların ilan edilmesinden itibaren yedi gün içinde dilekçeyle ilgili dekanlığa yapılır."
+  },
+  {
+   "id": "u09",
+   "konu": "yönetmelik",
+   "metin": "Yatay geçiş başvurularında adayın kayıtlı olduğu programdaki başarı sırası ve genel not ortalaması birlikte değerlendirilir."
+  },
+  {
+   "id": "u10",
+   "konu": "yönetmelik",
+   "metin": "Erasmus değişim programına katılan öğrenci, yurt dışında aldığı dersleri intibak komisyonu onayıyla kendi programına saydırabilir."
+  },
+  {
+   "id": "b01",
+   "konu": "prosedür",
+   "metin": "Jeneratörü çalıştırmadan önce yağ seviyesi çubuktan kontrol edilir; seviye alt çizginin altındaysa motor yağı tamamlanır."
+  },
+  {
+   "id": "b02",
+   "konu": "prosedür",
+   "metin": "Bakım öncesinde jeneratörün şebeke bağlantısı kesilir ve akü kutup başlarından eksi uç sökülür."
+  },
+  {
+   "id": "b03",
+   "konu": "prosedür",
+   "metin": "Hava filtresi her 250 çalışma saatinde çıkarılıp basınçlı hava ile temizlenir; aşırı kirlenmişse yenisiyle değiştirilir."
+  },
+  {
+   "id": "b04",
+   "konu": "prosedür",
+   "metin": "Soğutma suyu seviyesi motor soğukken genleşme kabından kontrol edilir; sıcak motorda radyatör kapağı asla açılmaz."
+  },
+  {
+   "id": "b05",
+   "konu": "prosedür",
+   "metin": "Yakıt filtresi değişiminden sonra hat havası, el pompasıyla hava çıkışı durulana kadar alınır."
+  },
+  {
+   "id": "b06",
+   "konu": "prosedür",
+   "metin": "Her ay jeneratör yüksüz olarak on beş dakika çalıştırılır ve çalışma sırasındaki anormal ses ile titreşim kayıt defterine yazılır."
+  },
+  {
+   "id": "b07",
+   "konu": "prosedür",
+   "metin": "Akü terminallerindeki oksitlenme, sodalı su ve fırça ile temizlenir; terminaller temizlendikten sonra ince bir gres tabakasıyla korunur."
+  },
+  {
+   "id": "b08",
+   "konu": "prosedür",
+   "metin": "Otomatik transfer şalteri testi için şebeke kasıtlı olarak kesilir ve jeneratörün 10 saniye içinde devreye girmesi beklenir."
+  },
+  {
+   "id": "b09",
+   "konu": "prosedür",
+   "metin": "Egzoz sisteminde sızıntı olduğundan şüphelenilirse jeneratör hemen durdurulur; kapalı alanda çalıştırılması karbonmonoksit zehirlenmesi riski taşır."
+  },
+  {
+   "id": "b10",
+   "konu": "prosedür",
+   "metin": "Bakım tamamlandığında yapılan işlemler, değişen parçalar ve sayaç değeri bakım formuna işlenir ve teknisyen tarafından imzalanır."
+  },
+  {
+   "id": "h01",
+   "konu": "haber",
+   "metin": "Dereköy yakınlarındaki ormanlık alanda dün öğleden sonra başlayan yangın, rüzgarın etkisiyle hızla yayıldı. Ekipler geceyi yangın hattında geçirdi."
+  },
+  {
+   "id": "h02",
+   "konu": "haber",
+   "metin": "Orman Bölge Müdürlüğü, Dereköy çevresindeki yangının büyük bölümünün kontrol altına alındığını, havadan müdahalenin sürdüğünü açıkladı."
+  },
+  {
+   "id": "h03",
+   "konu": "haber",
+   "metin": "Sazlıçay Köprüsü'nde meydana gelen trafik kazasında bir tır devrildi; köprü iki saat boyunca ulaşıma kapandı."
+  },
+  {
+   "id": "h04",
+   "konu": "haber",
+   "metin": "Devrilen tırın kaldırılması için çalışma yapıldı, Sazlıçay'daki köprü trafiğe yeniden açıldı. Yaralı olmadığı bildirildi."
+  },
+  {
+   "id": "h05",
+   "konu": "haber",
+   "metin": "Ova Belediyesi, sağanak yağışın ardından alt geçitleri su bastığı için üç mahallede su tahliye çalışması başlattı."
+  },
+  {
+   "id": "h06",
+   "konu": "haber",
+   "metin": "Dün akşamki şiddetli yağmur sonrası Ova ilçesinde birçok alt geçit göle döndü; belediye ekipleri pompalarla suyu boşalttı."
+  },
+  {
+   "id": "h07",
+   "konu": "haber",
+   "metin": "Kuzey Hattı'nda sinyalizasyon arızası yaşandı; arıza nedeniyle sabah seferlerinde otuz dakikaya varan gecikmeler görüldü."
+  },
+  {
+   "id": "h08",
+   "konu": "haber",
+   "metin": "Raylı sistem işletmesi, Kuzey Hattı'ndaki sinyal sorununun giderildiğini, seferlerin normale döndüğünü duyurdu."
+  },
+  {
+   "id": "h09",
+   "konu": "haber",
+   "metin": "Şehir hastanesinin elektrik panosunda çıkan küçük çaplı yangın, jeneratörün devreye girmesiyle hastane hizmetlerini aksatmadan söndürüldü."
+  },
+  {
+   "id": "h10",
+   "konu": "haber",
+   "metin": "Hastanenin ana panosundaki yangın hızla söndürüldü; kesinti sırasında yedek jeneratör sayesinde ameliyathaneler çalışmaya devam etti."
+  },
+  {
+   "id": "g01",
+   "konu": "genel",
+   "metin": "Mercimek çorbası için kırmızı mercimek, soğan ve havuç tencerede kavrulur, ardından sıcak su eklenip yirmi dakika pişirilir."
+  },
+  {
+   "id": "g02",
+   "konu": "genel",
+   "metin": "Futbolda ofsayt kuralı, topun oynandığı anda savunmanın son oyuncusundan daha ileride bulunan hücum oyuncusunu kapsar."
+  },
+  {
+   "id": "g03",
+   "konu": "genel",
+   "metin": "Kemikli balıkların çoğu yüzme keselerini kullanarak suda belirli bir derinlikte dengede kalır."
+  },
+  {
+   "id": "g04",
+   "konu": "genel",
+   "metin": "Saatte yüz kilometre hızla giden bir araç, sert fren yaptığında durma mesafesi yağışlı havada belirgin biçimde uzar."
+  },
+  {
+   "id": "g05",
+   "konu": "genel",
+   "metin": "İstanbul Boğazı'nı Karadeniz'e ve Marmara Denizi'ne bağlayan doğal bir su yoludur."
+  },
+  {
+   "id": "g06",
+   "konu": "genel",
+   "metin": "Güneş panelleri, ışığı fotovoltaik hücreler aracılığıyla doğrudan elektrik enerjisine dönüştürür."
+  },
+  {
+   "id": "g07",
+   "konu": "genel",
+   "metin": "Yeni başlayanlar için haftada üç gün otuz dakikalık tempolu yürüyüş, kalp sağlığını destekleyen basit bir egzersiz programıdır."
+  },
+  {
+   "id": "g08",
+   "konu": "genel",
+   "metin": "Bir kitabın ilk baskısı ile sonraki baskıları arasındaki farklar, genellikle yayınevinin yaptığı düzeltmelerden kaynaklanır."
+  },
+  {
+   "id": "g09",
+   "konu": "genel",
+   "metin": "Lityum iyon piller, tam şarj ve tam deşarj döngülerinden çok sık geçirildiğinde kapasite kaybına daha hızlı uğrar."
+  },
+  {
+   "id": "g10",
+   "konu": "genel",
+   "metin": "Dil öğrenirken her gün kısa süre tekrar yapmak, haftada bir uzun çalışmaktan daha kalıcı sonuç verir."
+  }
+ ],
+ "sorular": [
+  {
+   "soru": "Zorunlu staj kaç iş günü sürer?",
+   "altin": "u01",
+   "tur": "örtüşme"
+  },
+  {
+   "soru": "Derslere hangi oranda devam etmezsem finale giremem?",
+   "altin": "u02",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Finalden kalırsam notumu tekrar düzeltme şansı var mı?",
+   "altin": "u03",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "İkinci bir bölüm okumak için not ortalamam kaç olmalı?",
+   "altin": "u04",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Sağlık raporumu ne kadar sürede teslim etmeliyim?",
+   "altin": "u05",
+   "tur": "zor"
+  },
+  {
+   "soru": "Okulu en fazla kaç dönem dondurabilirim?",
+   "altin": "u06",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Mezuniyet için toplam kaç AKTS gerekiyor?",
+   "altin": "u07",
+   "tur": "örtüşme"
+  },
+  {
+   "soru": "Sınav sonucuna itiraz etmek için ne kadar süre var?",
+   "altin": "u08",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Yurt dışında aldığım dersler diplomama sayılır mı?",
+   "altin": "u10",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Jeneratör çalışmadan önce yağ nasıl kontrol edilir?",
+   "altin": "b01",
+   "tur": "örtüşme"
+  },
+  {
+   "soru": "Makineye dokunmadan önce elektriği nasıl keserim?",
+   "altin": "b02",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Hava süzgecini ne zaman temizlemem lazım?",
+   "altin": "b03",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Motor sıcakken radyatörün kapağını açmak neden yasak?",
+   "altin": "b04",
+   "tur": "zor"
+  },
+  {
+   "soru": "Güç sistemi şebeke kesilince kendiliğinden devreye giriyor mu, nasıl denenir?",
+   "altin": "b08",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Egzozdan gaz kaçırıyorsa ne yapmalıyım?",
+   "altin": "b09",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Dereköy'deki yangın söndürüldü mü?",
+   "altin": "h02",
+   "tur": "zor"
+  },
+  {
+   "soru": "Köprüdeki kaza yüzünden yol ne zaman açıldı?",
+   "altin": "h04",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Yağmur sonrası hangi ilçede alt geçitler su altında kaldı?",
+   "altin": "h06",
+   "tur": "zor"
+  },
+  {
+   "soru": "Hastanede elektrik panosu neden yandı ve ameliyatlar nasıl devam etti?",
+   "altin": "h10",
+   "tur": "zor"
+  },
+  {
+   "soru": "Kuzey Hattı'ndaki gecikmelerin sebebi neydi?",
+   "altin": "h07",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Güneş enerjisinden elektrik nasıl elde edilir?",
+   "altin": "g06",
+   "tur": "parafraz"
+  },
+  {
+   "soru": "Mercimek çorbası nasıl yapılır?",
+   "altin": "g01",
+   "tur": "örtüşme"
+  }
+ ],
+ "cevapsiz": [
+  "Kütüphane hafta sonu saat kaçta kapanıyor?",
+  "Yurt başvuruları hangi tarihte başlıyor?",
+  "Bitcoin'in bugünkü fiyatı nedir?",
+  "Mars'a ilk insanlı uçuş ne zaman yapılacak?"
+ ],
+ "ciftler": [
+  [
+   "h01",
+   "h02"
+  ],
+  [
+   "h03",
+   "h04"
+  ],
+  [
+   "h05",
+   "h06"
+  ],
+  [
+   "h07",
+   "h08"
+  ],
+  [
+   "h09",
+   "h10"
+  ]
+ ]
+}

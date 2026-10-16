@@ -46,11 +46,11 @@ Ayrıntılı kapsam ve kaynaklar: [`Transformer-Foundations-lab/README.md`](Tran
 
 ## Faz 2: RAG Sistemleri (`RAG-Systems-lab`)
 
-Sekiz notebook planlandı: vektör arama, chunking, retrieval yöntemleri, sıfırdan RAG pipeline'ı, RAG değerlendirmesi, Self-RAG/CRAG, GraphRAG ve Türkçe bir RAG asistanı. Sırada ilk notebook (`01_vector_search_embeddings`) var. Ayrıntı: [`RAG-Systems-lab/README.md`](RAG-Systems-lab/README.md)
+Sekiz notebook planlandı: vektör arama, chunking, retrieval yöntemleri, sıfırdan RAG pipeline'ı, RAG değerlendirmesi, Self-RAG/CRAG, GraphRAG ve Türkçe bir RAG asistanı. İlk notebook (`01_vector_search_embeddings`) tamamlandı (egzersizler dahil), sırada `02_chunking_strategies` var. Ayrıntı: [`RAG-Systems-lab/README.md`](RAG-Systems-lab/README.md)
 
 ## Kullanılan Kütüphaneler ve Araçlar
 
-**Python** serinin ortak dili. Faz 1'in ilk notebook'larında mekanizmalar **NumPy** ve **Matplotlib** ile sıfırdan kuruluyor; 06'dan itibaren **PyTorch**, **Hugging Face transformers** ve **PEFT** ile hazır modeller kullanılıyor. Faz 2'de **sentence-transformers**, vektör arama için **FAISS**/**Chroma**, ve gerektiğinde **LangChain**/**LlamaIndex** eklenecek.
+**Python** serinin ortak dili. Faz 1'in ilk notebook'larında mekanizmalar **NumPy** ve **Matplotlib** ile sıfırdan kuruluyor; 06'dan itibaren **PyTorch**, **Hugging Face transformers** ve **PEFT** ile hazır modeller kullanılıyor. Faz 2'de 01'den itibaren **sentence-transformers** (embedding modelleri) kullanılıyor; vektör arama için **FAISS**/**Chroma** (03) ve **LangChain**/**LlamaIndex** (04'ten itibaren) eklenecek. API çağrıları (Gemini embedding, ücretsiz katman) standart `urllib` ile yapılıyor; anahtarlar `.env` içinde (`HF_TOKEN`, `GEMINI_API_KEY`), yanıtlar diske önbelleğe alınıyor.
 
 ## Kullanılan Modeller
 
@@ -61,7 +61,9 @@ Modeller Hugging Face'ten indiriliyor (ilk çalıştırmada internet gerekir) ve
 - **T5 (small)** — encoder-decoder mimarisi ve cross-attention
 - **Qwen2.5** (0.5B ve 1.5B; base ve Instruct) — fine-tuning, LoRA ve RAG okuyucusu deneyleri
 - **SmolLM2 (360M)** — farklı tokenizer ve küçük model karşılaştırması
-- **multilingual-e5-small** — Türkçe dahil çok dilli embedding ve retrieval
+- **multilingual-e5-small** — Türkçe dahil çok dilli embedding ve retrieval (Faz 2'nin ana embedding modeli)
+- **multilingual-e5-base**, **paraphrase-multilingual-MiniLM-L12-v2**, **all-MiniLM-L6-v2** (İngilizce-only kontrol) — 01'de embedding modeli karşılaştırması; egzersizde **BAAI/bge-m3**, **LaBSE**, **distiluse-base-multilingual-cased-v2**
+- **gemini-embedding-001** (API, ücretsiz katman) — 01'de API embedding karşılaştırması; vektörler `data/gemini_onbellek.json` içinde önbellekli
 
 Not: Modelleri indirmeyi gerektiren bazı hücreler opsiyonel olarak işaretlenmiş olabilir; sıfırdan yazılan çekirdek kodlar internetsiz çalışır.
 
@@ -75,4 +77,4 @@ Not: Modelleri indirmeyi gerektiren bazı hücreler opsiyonel olarak işaretlenm
 
 ## Sırada Ne Var
 
-Faz 1 bitti. Sırada Faz 2: `RAG-Systems-lab/01_vector_search_embeddings`.
+Faz 1 bitti. Faz 2'de `01_vector_search_embeddings` tamamlandı (egzersizler çözüldü ve kontrol edildi). Sırada: `RAG-Systems-lab/02_chunking_strategies`.
